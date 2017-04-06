@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: Badge-NodeRed-reifer
+  host: Badge-NodeRed-reifer
+  disk_quota: 1024M
+  services:
+  - Badge-NodeRed-reifer-cloudantNoSQLDB
+  - Badge-NodeLanguage Translator-mw
+  - BadgeNodeConversation-pn
+  - badgeNodeVisual Recognition-sv
